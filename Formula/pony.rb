@@ -10,7 +10,7 @@ class Pony < Formula
   license :cannot_represent
 
   # The Pony Mac app needs macOS 27 (Golden Gate), and the CLI does nothing without it.
-  depends_on macos: ">= :golden_gate"
+  depends_on macos: :golden_gate
 
   def install
     bin.install "pony"
