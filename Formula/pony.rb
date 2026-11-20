@@ -4,9 +4,9 @@
 class Pony < Formula
   desc "Nagging Apple Reminders from the command line, through the Pony Mac app"
   homepage "https://pantuso.com/pony/"
-  version "2026.9"
+  version "2026.11"
   url "https://pantuso.com/pony/dl/pony-#{version}.zip"
-  sha256 "4d2915108177d7b35099652e1bae1a13837a7dbaf43f6df405b344c38fc1c820"
+  sha256 "b6795b2634ec19b19222377077d58d94ee7ac3bb28604d94bcf6f78c89e6b849"
   license :cannot_represent
 
   # The Pony Mac app needs macOS 27 (Golden Gate), and the CLI does nothing without it.
